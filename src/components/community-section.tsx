@@ -243,26 +243,7 @@ const CommunitySection = () => {
           </div>
         </div>
 
-        {/* Enhanced 3D Achievements Section */}
-        <div className="mb-20 animate-fade-in-up hover-3d-lift" style={{ animationDelay: '0.6s' }}>
-          <h3 className="text-2xl lg:text-3xl font-bold text-center mb-8 hover-3d-tilt cursor-pointer">
-            Our{" "}
-            <span className="genvo-text-gradient hover-3d-rotate inline-block cursor-pointer">Achievements</span>
-          </h3>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {achievements.map((achievement, index) => (
-              <div
-                key={index}
-                className="genvo-card-elegant p-4 text-center animate-fade-in-up hover:scale-105 transition-all duration-300 hover-3d-lift cursor-pointer interactive-3d"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="text-2xl mb-2 hover:text-3d transition-all duration-300">{achievement}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
+        
         {/* Enhanced 3D CTA Section */}
         <div className="text-center animate-fade-in-up hover-3d-lift" style={{ animationDelay: '0.8s' }}>
           <div className="genvo-card-elegant p-12 max-w-2xl mx-auto hover-3d-lift interactive-3d">
